@@ -1,0 +1,128 @@
+body {
+  color: #555;
+  font-family: Arial, sans-serif; }
+  body a:focus {
+    outline: none; }
+
+.all_container {
+  border: 1px solid #96ADBD;
+  background: #F3F9FE;
+  margin: 20px; }
+  .all_container .header {
+    height: 34px;
+    background: #DBE3FF; }
+    .all_container .header h3 {
+      float: left;
+      font-size: 14px;
+      margin: 0;
+      line-height: 34px;
+      text-indent: 14px;
+      color: #1D3E83; }
+      .all_container .header h3 a {
+        color: #1D3E83; }
+  .all_container .content {
+    padding: 10px;
+    font-size: 12px; }
+    .all_container .content .inner_header {
+      border: 1px solid #CAD8E5;
+      background: #DBE3FF;
+      margin-bottom: 5px;
+      text-indent: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #1D3E83;
+      line-height: 34px; }
+    .all_container .content input[type='password'], .all_container .content input[type='text'], .all_container .content select {
+      border-color: #6E9FDE #C4DEFF #C4DEFF #6E9FDE;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 0;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      height: 24px;
+      width: 180px;
+      box-sizing: border-box; }
+    .all_container .content select {
+      padding: 2px !important; }
+    .all_container .content label.for_radio {
+      display: inline-block; }
+      .all_container .content label.for_radio:nth-child(n+2) {
+        margin-left: 15px; }
+    .all_container .content label.for_checkbox {
+      display: inline-block; }
+      .all_container .content label.for_checkbox:nth-child(n+2) {
+        margin-left: 15px; }
+    .all_container .content input[type='submit'], .all_container .content input[type='reset'], .all_container .content input[type='button'] {
+      font-family: Verdana, Arial, sans-serif;
+      display: inline-block;
+      background: #1D3E83 url("/static/_img/ht/4bg-button-green.gif") top left repeat-x !important;
+      border: 1px solid #254fa6 !important;
+      color: #fff !important;
+      font-size: 12px !important;
+      cursor: pointer;
+      height: 24px;
+      line-height: 16px;
+      padding-left: 11px;
+      padding-right: 11px;
+      box-shadow: none !important; }
+    .all_container .content input[type="radio"], .all_container .content input[type="checkbox"] {
+      margin: 0 !important; }
+    .all_container .content textarea {
+      height: 50px;
+      width: 400px;
+      margin-top: 3px;
+      margin-bottom: 3px; }
+    .all_container .content .red_star2 {
+      color: red;
+      margin-left: 3px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: 3px; }
+    .all_container .content .table1 {
+      border-collapse: collapse;
+      width: 100%; }
+      .all_container .content .table1 tr {
+        border: 1px solid #eee;
+        background: #fff;
+        line-height: 30px; }
+        .all_container .content .table1 tr td:first-child {
+          width: 30%;
+          text-align: right;
+          vertical-align: top; }
+    .all_container .content .table2 {
+      border-collapse: collapse;
+      width: 100%; }
+      .all_container .content .table2 tr td, .all_container .content .table2 tr th {
+        text-align: left;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 1px solid #C1DAD7;
+        background: #fff;
+        color: #4F6B72;
+        line-height: 30px; }
+      .all_container .content .table2 tr th {
+        background: rgba(202, 232, 234, 0.61); }
+      .all_container .content .table2 a {
+        color: #1D3E83; }
+        .all_container .content .table2 a:hover {
+          color: #000;
+          text-decoration: none; }
+
+.pagestr {
+  margin: 10px 0 0 0; }
+  .pagestr * {
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    padding: 3px 5px; }
+  .pagestr span.dot {
+    border: none; }
+  .pagestr span.current {
+    background: #fff; }
+  .pagestr a {
+    background: #eee;
+    color: #555; }
+    .pagestr a:hover {
+      background: #2c4076;
+      border-color: #2c4076;
+      color: #fff;
+      text-decoration: none; }

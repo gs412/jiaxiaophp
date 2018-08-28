@@ -1,0 +1,113 @@
+.dafangkuai {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background: #fff;
+  border: 1px solid #DEDEDE;
+  padding: 30px; }
+  .dafangkuai ul.shuoming {
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 180%; }
+    .dafangkuai ul.shuoming > li {
+      list-style: square;
+      text-indent: -5px; }
+      .dafangkuai ul.shuoming > li > ol > li {
+        list-style: decimal;
+        text-indent: 0; }
+  .dafangkuai .xiangdao {
+    text-align: center;
+    padding: 40px 0 40px; }
+    .dafangkuai .xiangdao input {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin-right: 100px; }
+
+h1.big_title {
+  font-size: 34px; }
+
+table.projects {
+  border-collapse: collapse;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 45px; }
+  table.projects tr th {
+    background: #4d525b;
+    color: #f7f7f7;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 56px; }
+    table.projects tr th:first-child {
+      text-align: left;
+      padding-left: 20px;
+      border-top-left-radius: 3px; }
+    table.projects tr th:nth-child(2) {
+      text-align: left; }
+    table.projects tr th:last-child {
+      border-top-right-radius: 3px; }
+  table.projects tr {
+    background: #fff; }
+    table.projects tr:hover {
+      background: #f7f7f7; }
+    table.projects tr:first-child td {
+      border-top: none; }
+    table.projects tr td {
+      text-align: right;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 10px;
+      border-top: 1px solid #eeeeee;
+      vertical-align: top; }
+      table.projects tr td:first-child {
+        text-align: left;
+        padding-left: 20px; }
+      table.projects tr td:nth-child(2) {
+        text-align: left; }
+    table.projects tr td.user a {
+      font-weight: bold;
+      font-size: 13px; }
+      table.projects tr td.user a img {
+        width: 60px;
+        height: 60px; }
+    table.projects tr td.user small {
+      display: block; }
+      table.projects tr td.user small span {
+        cursor: help; }
+    table.projects tr td.title h4 {
+      margin: 0 auto; }
+      table.projects tr td.title h4 a {
+        font-weight: bold;
+        font-size: 18px; }
+    table.projects tr td.title .description {
+      font-size: 13px;
+      line-height: 18.2px;
+      margin-top: 10px; }
+    table.projects tr td.title .skills {
+      font-size: 13px;
+      line-height: 18.2px;
+      margin-top: 11px; }
+    table.projects tr td.replies {
+      font-size: 15px;
+      line-height: 24px; }
+    table.projects tr td.start {
+      font-size: 15px;
+      line-height: 24px; }
+      table.projects tr td.start small {
+        font-size: 13px;
+        display: block; }
+        table.projects tr td.start small .fa-clock-o {
+          margin-right: 6px; }
+    table.projects tr td.price {
+      font-size: 15px;
+      line-height: 24px; }
+      table.projects tr td.price input {
+        padding: 5px 12px 6px;
+        display: none; }
+  table.projects tr:last-child td:first-child {
+    border-bottom-left-radius: 3px; }
+  table.projects tr:last-child td:last-child {
+    border-bottom-right-radius: 3px; }

@@ -1,0 +1,60 @@
+.left_main {
+  float: left;
+  width: 276px; }
+  .left_main ul li {
+    margin-top: 5px; }
+    .left_main ul li a {
+      display: block;
+      font-size: 15px;
+      line-height: 24px;
+      padding: 10px 18px;
+      border-radius: 3px; }
+      .left_main ul li a:hover {
+        text-decoration: none;
+        color: #34b5e8; }
+  .left_main ul li:first-child {
+    margin-top: 0; }
+  .left_main ul li.active a {
+    background: #17a1e6;
+    color: #fff; }
+
+.right_main {
+  float: right;
+  width: 876px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
+  .right_main h1, .right_main .section, .right_main .form_foot {
+    padding-left: 75px;
+    padding-right: 75px;
+    border-bottom: 1px solid #dedede; }
+  .right_main h1 {
+    font-size: 34px;
+    line-height: 58px;
+    font-weight: bold;
+    padding-bottom: 23px; }
+  .right_main .section {
+    padding-bottom: 32px; }
+    .right_main .section h3 {
+      font-size: 18px;
+      margin-top: 34px; }
+    .right_main .section label {
+      display: block;
+      font-weight: bold;
+      line-height: 22px;
+      font-size: 14px;
+      margin-bottom: 6px; }
+    .right_main .section input[type='text'] {
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 15px;
+      padding: 8px 12px;
+      font-family: Roboto, "Helvetica Neue", Helvetica, Arial, STHeiti, "Microsoft YaHei", "sim-sun", sans-serif; }
+  .right_main .form_foot {
+    border: none;
+    background: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .right_main .form_foot input {
+      font-size: 15px;
+      padding: 8px 18px; }

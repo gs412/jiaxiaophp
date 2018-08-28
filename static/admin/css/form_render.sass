@@ -1,0 +1,70 @@
+.table1
+	td
+		position: relative
+		.field_description
+			color: #999
+		span.name
+			display: inline-block
+			width: 100px
+			font-size: 14px
+		.db_field
+			position: absolute
+			top: 0
+			right: 0
+			width: 300px
+			select
+				width: 140px
+			input.addition
+				width: 40px
+
+.file_list
+	display: inline-block
+	> div.img_div
+		position: relative
+		display: inline-block
+		border: 1px solid #DDD
+		padding: 1px
+		height: 60px
+		width: 60px
+		margin-right: 10px
+		margin-bottom: 5px
+		margin-top: 5px
+		img.img
+			width: 60px
+			height: 60px
+		div.file_name
+			width: 52px
+			height: 52px
+			margin: 1px
+			padding: 2px
+			font-size: 12px
+			font-weight: bold
+			line-height: normal
+			background: #EEE
+			border: 1px solid #CCC
+			overflow: hidden
+			vertical-align: middle !important
+			display: inline-block
+			cursor: default
+		.del_div
+			position: absolute
+			display: none
+			height: auto
+			line-height: 5px
+			background: #fff
+			border: 1px solid #BBB
+			top: 2px
+			right: 2px
+			cursor: pointer
+			&:hover
+				border-color: blue
+
+div.db_table
+	margin: 20px
+	position: relative
+	font-size: 12px
+	div.db_right
+		position: absolute
+		top: 0
+		right: 0
+		width: 300px

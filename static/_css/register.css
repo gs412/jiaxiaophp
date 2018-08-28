@@ -1,0 +1,25 @@
+.register_box {
+  background: #fff;
+  border-radius: 4px;
+  margin: 100px auto;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
+  .register_box h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 30px; }
+  .register_box form input {
+    font-size: 16px;
+    padding: 11px 18px;
+    margin-top: 30px;
+    width: 100%; }
+    .register_box form input:first-child {
+      margin-top: 40px; }
+  .register_box .link {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 60px;
+    padding-top: 30px;
+    text-align: center; }
