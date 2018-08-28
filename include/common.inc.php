@@ -50,7 +50,8 @@ if($uid){
 
 #常用定义结束
 
-function __autoload($class_name){
+spl_autoload_register('bccn_load_class');
+function bccn_load_class($class_name){
 	$path1 = ROOT."include/class/".strtolower($class_name).".class.php";
 	$path2 = ROOT."controller/".str_replace('\\', '/',$class_name).".php";
 	if (is_file($path1)) {
